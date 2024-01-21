@@ -1,0 +1,80 @@
+body
+{
+    background-image: url('../Images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.centering
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerstyle
+{
+    border-radius: 30px;
+    display: flex;
+    background: grey;
+    padding: 50px;
+    width: 250px;
+    height: 425px;
+    box-shadow:3px 3px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div1
+{
+  font-size: larger;
+  text-align: justify;
+}
+
+p
+{
+    font-size: x-large;
+    margin: 50px;
+}
+
+h1 
+{
+  color:aliceblue;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow:3px 3px 5px black;
+}
+  
+form 
+{
+  margin-bottom: 20px;
+}
+  
+label 
+{
+  display: inline-block;
+  width: 100px;
+}
+
+.booking 
+{
+  background-color: #e27800;
+  border:1px solid rgb(0, 0, 0);
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 3px 3px 3px black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.booking:hover
+{
+  background-color: rgb(190, 126, 16);
+  transition: background-color 0.3s ease;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

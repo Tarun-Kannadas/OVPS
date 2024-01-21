@@ -1,0 +1,242 @@
+body
+{
+    background-image: url('../Images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.centering
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerstyle
+{
+    border-radius: 30px;
+    display: flex;
+    background: grey;
+    padding: 50px;
+    width: 250px;
+    height: 425px;
+    box-shadow:3px 3px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div1
+{
+  font-size: larger;
+  text-align: justify;
+}
+
+p
+{
+    font-size: x-large;
+    margin: 50px;
+}
+
+h1 
+{
+  color:aliceblue;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow:3px 3px 5px black;
+}
+  
+form 
+{
+  margin-bottom: 20px;
+}
+  
+label 
+{
+  display: inline-block;
+  width: 100px;
+}
+
+/* Table Format */
+
+  .notickets
+  {
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    text-shadow:3px 3px 5px black;
+    font-size: 28px;
+    background: grey;
+    border-radius: 9px;
+    border: 2px solid #000; 
+    padding: 15px; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  .styled-table 
+  {
+    width: 100%;
+    background-color: #656565;
+    /* border-collapse: collapse; */
+    /* margin: 25px 0; */
+    font-size: 18px;
+    text-align: center;
+    border-radius: 9px;
+  }
+
+  .styled-table th,
+  .styled-table td 
+  {
+    padding: 25px 15px;
+    border-radius: 9px;
+  }
+
+  .styled-table th 
+  {
+    color:aliceblue;
+    background-color: #252525;
+    text-shadow:3px 3px 5px black;
+  }
+
+  .styled-table tr 
+  {
+    background-color: #656565;
+  }
+
+  .styled-table th,
+  .styled-table td 
+  {
+    border: 2px solid #000000;
+  }
+
+  .styled-table tr:hover 
+  {
+    background-color: #f5f5f5;
+  }
+
+/* Delete Button */
+
+  .delete 
+  {
+    background-color: #e20000;
+    border:1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    box-shadow: 3px 3px 3px black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .delete:hover
+  {
+    background-color: #9e1111;
+    color: #000;
+    transition: background-color 0.3s ease;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .print 
+  {
+    background-color: #e27100;
+    border:1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px 3px black
+  }
+
+  .print:hover
+  {
+    background-color: rgb(145, 79, 17);
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+
+  .addtime 
+  {
+    background-color: #08e200;
+    border:1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px 3px black
+  }
+
+  .addtime:hover
+  {
+    background-color: rgb(17, 145, 21);
+    color: #000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+
+/* boxes */
+
+  .textbox 
+  {
+    display: inline-block;
+    background: grey;
+    border-radius: 9px;
+    border: 2px solid #000; 
+    padding: 25px; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textbox2
+  {
+    display: flex;
+    flex-direction: row;
+    background: grey;
+    border-radius: 9px;
+    border: 2px solid #000; 
+    padding: 5px; 
+    align-items: center;
+    justify-content: center;
+  }
+
+  .textbox3
+  {
+    display: flex;
+    color: aliceblue;
+    flex-direction: row;
+    text-shadow:3px 3px 5px black;
+    font-size: 28px;
+    background: grey;
+    border-radius: 9px;
+    border: 2px solid #000; 
+    padding: 15px; 
+    align-items: center;
+    justify-content: center;
+  }
+
+/* Other transisions */
+
+.click
+{
+  color: rgb(255, 123, 0);
+  text-decoration: none;
+}

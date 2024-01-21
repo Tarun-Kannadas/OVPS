@@ -1,0 +1,82 @@
+body
+{
+    background-image: url('../Images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1
+{
+    color:aliceblue;
+    text-shadow:3px 3px 5px black;
+}
+
+.centering
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centerstyle2
+{
+    text-align: center;
+    border-radius: 30px;
+    background: grey;
+    padding: 50px;
+    width: 250px;
+    height: 400px;
+    box-shadow:3px 3px 5px black;
+}
+
+input[type = 'text']
+{
+    text-align: center;
+}
+
+.username
+{
+    padding: 5px;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+    /* text-shadow:3px 3px 5px black; */
+    box-shadow:3px 3px 5px black;
+}
+
+.phonenumber
+{
+    padding: 5px;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+    /* text-shadow:3px 3px 5px black; */
+    box-shadow:3px 3px 5px black;
+}
+
+/* .feedback
+{
+    padding: 7px;
+    border-radius: 7px;
+    background: rgb(255, 255, 255);
+    text-shadow:3px 3px 5px black;
+    box-shadow:3px 3px 5px black;
+} */
+
+.submit
+{
+    padding: 7px 15px;
+    background:rgb(222, 146, 23);
+    box-shadow:3px 3px 5px black;
+    /* border:none; */
+    /* border:2px solid rgb(0, 0, 0); */
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.submit:hover
+{
+    border-radius: 7px;
+    background: rgba(169, 110, 8, 0.616);
+    text-shadow:none;
+}

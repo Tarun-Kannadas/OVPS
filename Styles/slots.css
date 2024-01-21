@@ -1,0 +1,62 @@
+body
+{
+    background-image: url('../Images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style2
+{
+    border-radius: 30px;
+    align-items: center;
+    background: grey;
+    padding: 50px;
+    width: 200px;
+    height: 525px;
+    box-shadow:3px 3px 5px black;
+}
+
+.confirm
+{
+    padding: 7px 15px;
+    color: white;
+    background:rgb(222, 146, 23);
+    box-shadow:3px 3px 5px black;
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.confirm:hover
+{
+    background-color: rgb(190, 126, 16);
+    transition: background-color 0.3s ease;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cancel
+{
+    padding: 7px 15px;
+    color: white;
+    background:rgb(222, 23, 23);
+    box-shadow:3px 3px 5px black;
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.cancel:hover
+{
+    border-radius: 7px;
+    background: rgba(169, 8, 8, 0.616);
+    text-shadow:none;
+}

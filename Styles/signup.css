@@ -1,0 +1,93 @@
+body
+{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../Images/image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1
+{
+    background-color: #656565;
+    color:aliceblue;
+    font-size: 28px;
+    padding: 15;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow:3px 3px 5px black;
+    text-shadow:3px 3px 5px black;
+}
+
+.style1
+{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: grey;
+    padding: 50px;
+    width: 200px;
+    height: 300px;
+    box-shadow:3px 3px 5px black;
+}
+
+.style2
+{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: grey;
+    padding: 50px;
+    width: 200px;
+    height: 325px;
+    box-shadow:3px 3px 5px black;
+}
+
+.login
+{
+    background-color: #e27100;
+    border:1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 2px 2px black;
+}
+
+.login:hover
+{
+  background-color: rgb(145, 79, 17);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.signup
+{
+    background-color: #e27100;
+    border:1px solid rgb(0, 0, 0);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 2px 2px black;
+}
+
+.signup:hover
+{
+  background-color: rgb(145, 79, 17);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}

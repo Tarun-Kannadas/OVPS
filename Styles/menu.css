@@ -1,0 +1,94 @@
+ul.menu 
+{
+    list-style-type: none;
+    overflow :visible;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #454545;
+    box-shadow:3px 3px 3px black;
+    text-shadow:3px 3px 3px black;
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li.menu-item 
+{
+    float: left;
+    font-size:large;
+}
+
+li.menu-item a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+li.menu-item a:hover 
+{
+    background-color: #ddd;
+    color: black;
+    border-radius: 7px;
+    text-shadow:none;
+}
+
+li.menu-item2 
+{
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+/* li.menu-item2:hover 
+{
+    color: rgb(255, 0, 0);
+    border-radius: 7px;
+} */
+
+.logout
+{
+    margin-left: -12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-shadow:3px 3px 3px black;
+}
+
+.logout:hover
+{
+    background: none;
+    border: none;
+    color: rgb(255, 0, 0);
+    text-shadow:3px 3px 3px black;
+}
+
+.mainusername
+{
+    /* padding: 5px; */
+    border-radius: 7px;
+    color: rgb(38, 255, 5);
+    /* background: rgb(255, 255, 255); */
+    text-shadow:3px 3px 3px rgb(0, 0, 0);
+    /* text-shadow:3px 3px 5px black; */
+    /* box-shadow: 3px 3px 3px black; */
+}
+
+.mainusername:hover
+{
+    border-radius: 7px;
+    /* background: rgb(0, 0, 0); */
+    text-shadow:none;
+    /* box-shadow: 3px 3px 3px rgb(255, 255, 255); */
+}
+
